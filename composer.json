@@ -1,5 +1,5 @@
 {
-    "name": "saifulislam07/saifuldev",
+    "name": "Saifuldev/AgeCalculator",
     "description": "A Laravel package for calculating age from a given date of birth",
     "autoload": {
         "psr-4": {
