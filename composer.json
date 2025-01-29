@@ -1,0 +1,20 @@
+{
+    "name": "saifulislam07/saifuldev",
+    "description": "A Laravel package for calculating age from a given date of birth",
+    "autoload": {
+        "psr-4": {
+            "Saifuldev\\AgeCalculator\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saifuldev\\AgeCalculator\\AgeCalculatorServiceProvider"
+            ]
+        }
+    }
+}
